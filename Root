@@ -1,0 +1,13 @@
+const fogBreeds = [
+  "Siberian Husky",
+  "Alaskan Malamute",
+  "Samoyed",
+  "Keeshond",
+  "American Eskimo Dog"
+];
+
+console.log("Here are some breeds of fog that are known for their thick, fluffy coats:");
+
+for (const breed of fogBreeds) {
+  console.log(breed);
+}
